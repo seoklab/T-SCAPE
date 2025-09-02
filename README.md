@@ -1,5 +1,5 @@
-# TITANiAN : Robust prediction of T-cell epitope immunogenicity using adversarial domain adaptation network
-This repository represents a novel T-cell epitope immunogenicity prediction model that leverages a multi-domain deep learning approach. Technical details and thorough analysis can be found in our paper, [TITANiAN: Robust prediction of T-cell epitope immunogenicity using adversarial domain adaptation network](https://www.biorxiv.org/content/10.1101/2025.05.11.653308v1), written by Jeonghyeon Kim, Nuri Jung, Jayyoon Lee, Nam-Hyuk Cho, Jinsung Noh, and Chaok Seok. If you have any question, feel free to open an issue or reach out at jeonghyeonkim86@gmail.com.
+# T-SCAPE: T-cell Immunogenicity Scoring via Cross-domain Aided Predictive Engine
+This repository represents a novel T-cell epitope immunogenicity prediction model that leverages a multi-domain deep learning approach. Technical details and thorough analysis can be found in our paper, [T-SCAPE: T-cell Immunogenicity Scoring via Cross-domain Aided Predictive Engine](https://www.biorxiv.org/content/10.1101/2025.05.11.653308v1), written by Jeonghyeon Kim, Nuri Jung, Jayyoon Lee, Nam-Hyuk Cho, Jinsung Noh, and Chaok Seok. If you have any question, feel free to open an issue or reach out at jeonghyeonkim86@gmail.com.
 
 ## Installation guide(linux only)
 1. Install [Anaconda](https://www.anaconda.com/download) if you have not installed it yet.

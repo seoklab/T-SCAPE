@@ -15,7 +15,7 @@ conda activate immuno
 conda install numpy matplotlib scikit-learn pandas wandb
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
-5. Download the parameter from [google drive](https://drive.google.com/drive/folders/12EqwOtTEX7VCgP3LQIRegpaK1JJiAjjd?usp=sharing) and place it in the main directory location.
+5. Download the parameter from [huggingface](https://huggingface.co/seoklab/T-SCAPE/tree/main)) and place it in the main directory location.
 
 Total installation would take ~10min for normal computer.
 

@@ -346,6 +346,7 @@ def main(args):
     test_dataset = CSVDataset_test(df)
     test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, collate_fn=inf_collator)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model_final.to(device)
     if "fused" in args.name:
         task_dict = {"pmhc_im":[3], "p_im":[1], "pmhc_el_I":[4], "pmhc_el_II":[7], "pmhc_ba_I":[3], "pmhc_ba_II":[6], "ptcr_ba":[9]}
     if "neg" in args.name:

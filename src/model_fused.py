@@ -323,7 +323,7 @@ class ByteNet(nn.Module):
         for layer in self.layers:
             e = layer(e, input_mask=input_mask)
             if self.dropout > 0.0:
-                e = F.dropout(e, self.dropout)
+                e = F.dropout(e, self.dropout, training=self.training)
         return e
 
 
